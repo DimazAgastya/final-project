@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+	--header: #000000;
+	--border: #d0d0d0;
+	--primary: #7126b5;
+	--secondary: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+	.login_right {
+		margin-left: 20.5px;
+	}
+
+	.arrow_svg {
+		margin: 52px 0px 0px 10.5px;
+	}
+
+	.login_right > h2 {
+		font-size: 24px;
+		line-height: 36px;
+		margin: 35px 0px 40px 0px;
+		font-weight: 700;
+	}
+
+	.dummy_dropzone {
+		width: 125px;
+		height: 100px;
+		background-color: #d5bced;
+		margin: 10px 0px 50px 20vh;
+		border-radius: 8px;
+	}
+
+	.camera_icon {
+		margin: 35px 0px 50px 7vh;
+	}
+
+	label {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		letter-spacing: 0em;
+		text-align: left;
+		margin: 10px 0px;
+	}
+
+	.input_box {
+		border: 1px solid var(--border);
+		margin-left: 10px;
+		border-radius: 16px;
+		padding: 12px 10px;
+	}
+
+	.input_box_2 {
+		border: 1px solid var(--border);
+		margin-left: 10px;
+		border-radius: 16px;
+		padding: 20px 16px;
+	}
+	.btn_login {
+		background-color: var(--primary);
+		color: var(--secondary);
+		font-family: Poppins;
+		border: none;
+		padding: 12px 24px 12px 24px;
+		border-radius: 16px;
+		width: 375px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.footer {
+		text-align: center;
+		margin: 100px 35px 0px 0px;
+	}
+
+	.footer > a {
+		text-decoration: none;
+	}
+
+	.daftar {
+		text-decoration: none;
+		margin-left: 5px;
+		color: var(--primary);
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 20px;
+		letter-spacing: 0em;
+		text-align: left;
+		text-transform: capitalize;
+	}
+}
+
+.login_right > h2 {
+	font-family: Poppins;
+	color: var(--header);
+}
+
+label {
+	font-family: Poppins;
+}
+
+.footer > p,
+a {
+	font-family: Poppins;
+}
