@@ -6,48 +6,61 @@ const profile = () => {
 
 	return (
 		<div className="container-fluid login_container ">
-			<header className="arrow row">
-				<div className="col-2">
-					<img src="/SVG/arrow_left.svg" alt="arrow icon" className=" arrow_svg .d-none .d-sm-block .d-md-none" />
+			<header className="arrow d-flex">
+				<div className="">
+					<img src="/SVG/arrow_left.svg" alt="arrow icon" className=" arrow_svg d-md-none" />
 				</div>
-				<div className="col-auto my-5 ">
+				<div className="profile_header_sm d-md-none">
 					<h3 className="">Lengkapi info account</h3>
 				</div>
 			</header>
+			<div className="profile_header d-none d-lg-block">
+				<h3 className="">Lengkapi info account</h3>
+			</div>
 			<div className="photo_section">
 				<div className="dummy_dropzone">
 					<img src="/SVG/camera.svg" className="camera_icon" alt="camera" />
 				</div>
 			</div>
-			<form className="mx-3">
-				<div className="row">
-					<label className="col-sm-12 col-md-2" htmlFor="nama">
-						Nama*
+			<div className="register_right">
+				<form className="register_form">
+					<label className="label" htmlFor="nama">
+						Nama
 					</label>
-					<input type="text" name="nama" id="nama" required placeholder="Nama Lengkap" className=" col-10 col-md-auto input_box"></input>
-				</div>
-				<div className="row my-4">
-					<label className="col-sm-12 col-md-2" htmlFor="nama">
-						Kota*
+					<div>
+						<input type="text" name="nama" id="nama" required placeholder="Nama Lengkap" className="input_box"></input>
+					</div>
+					<label className="" htmlFor="nama">
+						Email
 					</label>
-					<input type="kota" name="kota" id="kota" required placeholder="Pilih Kota" className=" col-10 col-md-auto input_box"></input>
-				</div>
-				<div className="row my-4">
-					<label className="col-sm-12 col-md-2" htmlFor="nama">
+					<div>
+						<input type="Email" name="Email" id="Email" required placeholder=" Contoh: johndee@gmail.com" className="input_box"></input>
+					</div>
+					<label className="" htmlFor="nama">
 						Alamat
 					</label>
-					<input type="Alamat" name="Alamat" id="Alamat" required placeholder="Contoh: Jalan Ikan Hiu 33" className=" col-10 col-md-auto input_box_2"></input>
-				</div>
-				<div className="row my-4">
-					<label className="col-sm-12 col-md-2" htmlFor="nama">
-						No.Handpone
+					<div>
+						<input type="Password" name="Password" id="Password" required placeholder="Contoh: Jalan Ikan Hiu 33" className="input_box_2"></input>
+					</div>
+					<label className="" htmlFor="nama">
+						No Handpone
 					</label>
-					<input type="kota" name="kota" id="kota" required placeholder="contoh: +628123456789" className=" col-10 col-md-auto input_box"></input>
+					<div>
+						<input type="Email" name="Email" id="Email" required placeholder=" contoh: +628123456789" className="input_box"></input>
+					</div>
+				</form>
+				<button type="submit" className="btn_login mt-5">
+					Daftar
+				</button>
+				<div className="footer">
+					<p>
+						Sudah punya akun?
+						<a href="/register" className="daftar">
+							Masuk sini
+						</a>
+					</p>
 				</div>
-			</form>
-			<button type="submit" className="btn_login mx-3">
-				Simpan
-			</button>
+			</div>
 		</div>
 	);
 };

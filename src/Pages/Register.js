@@ -1,5 +1,5 @@
 import React from "react";
-import RegisterPage from "../components/EditingAccount/account";
+import RegisterPage from "../components/register/register";
 
 export const Register = () => {
 	return (
@@ -8,3 +8,5 @@ export const Register = () => {
 		</div>
 	);
 };
+
+export default Register;
