@@ -92,8 +92,8 @@ label {
 		font-weight: 700;
 	}
 
-	label {
-		margin: 10px 5px;
+	.register_label {
+		margin-left: 12px;
 	}
 
 	.input_box {

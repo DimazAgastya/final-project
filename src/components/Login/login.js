@@ -20,13 +20,13 @@ const Login = () => {
 					<div className="register_right col-12 col-lg-4">
 						<h2>Masuk</h2>
 						<form className="register_form">
-							<label className="" htmlFor="nama">
+							<label className="login_label" htmlFor="nama">
 								Email
 							</label>
 							<div>
 								<input type="Email" name="Email" id="Email" required placeholder=" Contoh: johndee@gmail.com" className="input_box"></input>
 							</div>
-							<label className="" htmlFor="nama">
+							<label className="login_label" htmlFor="nama">
 								Password
 							</label>
 							<div>
