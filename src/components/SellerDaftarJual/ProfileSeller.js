@@ -15,7 +15,7 @@ const ProfileSeller = () => {
 					</div>
 				</div>
 				<div className="col-3 col-lg-1 btn_container">
-					<button className="btn_seller_bio ">Edit</button>
+					<button className="btn_seller_bio text_small ">Edit</button>
 				</div>
 			</div>
 		</div>

@@ -14,7 +14,7 @@ const Login = () => {
 					/>
 				</section>
 				<div className="main_register row">
-					<div className="login_left col-12 col-lg-auto p-0">
+					<div className="login_left col-12 col-lg-5 p-0">
 						<img src="/SVG/login_img.svg" className="d-none d-lg-block register_img" alt=" login" />
 					</div>
 					<div className="register_right col-12 col-lg-4">
