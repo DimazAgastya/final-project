@@ -1,4 +1,30 @@
 import React from "react";
+import Header from "./LoginHeader";
+import Image from "./LoginImage";
+import Form from "./LoginForm";
+import "./login.css";
+
+const Login = () => {
+	return (
+		<div>
+			<div className="register_container">
+				<section className="arrow d-md-none">
+					<Header />
+				</section>
+				<section className="main_register row">
+					<Image />
+					<Form />
+				</section>
+			</div>
+		</div>
+	);
+};
+
+export default Login;
+
+/*
+
+import React from "react";
 import "./login.css";
 
 const Login = () => {
@@ -52,3 +78,6 @@ const Login = () => {
 };
 
 export default Login;
+
+
+*/

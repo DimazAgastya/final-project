@@ -10,7 +10,7 @@ const profile = () => {
 				<header>
 					<h3 className="">Akun saya</h3>
 				</header>
-				<div className="photo_section">
+				<div className="photo_section mb-5">
 					<div className="dummy_dropzone">
 						<img src="/SVG/camera.svg" className="camera_icon" alt="camera" />
 					</div>

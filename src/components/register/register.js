@@ -1,4 +1,30 @@
 import React from "react";
+import Header from "./RegisterHeader";
+import Image from "./RegisterImage";
+import Form from "./RegisterForm";
+import "./register.css";
+
+const register = () => {
+	return (
+		<div>
+			<div className="register_container">
+				<section className="arrow d-md-none">
+					<Header />
+				</section>
+				<div className="main_register row">
+					<Image />
+					<Form />
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default register;
+
+/*
+
+import React from "react";
 import "./register.css";
 
 const register = () => {
@@ -58,3 +84,6 @@ const register = () => {
 };
 
 export default register;
+
+
+*/
