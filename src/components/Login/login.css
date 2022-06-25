@@ -5,19 +5,24 @@
 	--border: #d0d0d0;
 	--primary: #7126b5;
 	--secondary: #ffffff;
+	--hover: #ab5ef2;
 }
 
-.register_container {
+.login_container {
 	margin: 0;
 	padding: 0;
 }
 
-.register_img {
+.login_left {
+	margin-right: 0px;
+}
+
+.login_img {
 	width: 575px;
 	height: auto;
 }
 
-.register_right > h2 {
+.login_right > h2 {
 	font-family: Poppins;
 	color: var(--header);
 	margin-top: 25vh;
@@ -43,21 +48,26 @@ label {
 	width: 98%;
 }
 
+.login_icon {
+	margin-left: -50px;
+	font-size: 22px;
+	color: var(--header);
+}
+
+.login_submit {
+	background-color: var(--primary);
+	border-radius: 16px;
+	font-size: 14px;
+	padding: 12px 24px;
+	color: var(--secondary);
+	border: none;
+	width: 100%;
+}
+
 .footer > p {
 	font-family: Poppins;
 	text-align: center;
 	margin: 75px 35px 0px 0px;
-}
-
-.btn_login {
-	background-color: var(--primary);
-	color: var(--secondary);
-	font-family: Poppins;
-	border: none;
-	border-radius: 16px;
-	padding: 12px 24px;
-	width: 100%;
-	margin-top: 50px;
 }
 
 .daftar {
@@ -73,7 +83,7 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-	.register_right {
+	.login_right {
 		margin-left: 20.5px;
 	}
 
@@ -81,7 +91,7 @@ label {
 		margin: 50px 0px 0px 20.5px;
 	}
 
-	.register_right > h2 {
+	.login_right > h2 {
 		font-size: 24px;
 		line-height: 36px;
 		margin: 35px 0px 40px 8px;
@@ -100,14 +110,20 @@ label {
 		width: 85%;
 	}
 
-	.btn_login {
+	.login_submit {
 		background-color: var(--primary);
-		color: var(--secondary);
-		font-family: Poppins;
-		border: none;
-		padding: 12px 24px 12px 24px;
 		border-radius: 16px;
-		margin: 30px 0px 0px 10px;
+		font-size: 14px;
+		padding: 12px 24px;
+		color: var(--secondary);
+		border: none;
+		width: 87%;
+		transition: 0.3s ease-in-out;
+	}
+
+	.login_submit:hover {
+		border-radius: 80px;
+		background-color: var(--hover);
 	}
 
 	.footer {

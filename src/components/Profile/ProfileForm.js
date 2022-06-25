@@ -21,13 +21,13 @@ const ProfileForm = () => {
 					Alamat
 				</label>
 				<div>
-					<input type="Password" name="Password" id="Password" required placeholder="Contoh: Jalan Ikan Hiu 33" className="input_box_2"></input>
+					<input type="text" name="alamat" id="alamat" required placeholder=" contoh alamat" className="input_box"></input>
 				</div>
 				<label className="" htmlFor="nama">
 					No Handpone
 				</label>
 				<div>
-					<input type="Email" name="Email" id="Email" required placeholder=" contoh: +628123456789" className="input_box"></input>
+					<input type="number" name="Handpone" id="Handpone" required placeholder=" contoh: +628123456789" className="input_box"></input>
 				</div>
 			</form>
 			<button type="submit" className="btn_login mt-5">

@@ -1,19 +1,19 @@
 import React from "react";
-import Header from "./LoginHeader";
-import Image from "./LoginImage";
-import Form from "./LoginForm";
+import LoginHeader from "./LoginHeader";
 import "./login.css";
+import LoginForm from "./LoginForm";
+import LoginImage from "./LoginImage";
 
 const Login = () => {
 	return (
 		<div>
-			<div className="register_container">
+			<div className="login_container">
 				<section className="arrow d-md-none">
-					<Header />
+					<LoginHeader />
 				</section>
 				<section className="main_register row">
-					<Image />
-					<Form />
+					<LoginImage />
+					<LoginForm />
 				</section>
 			</div>
 		</div>
@@ -79,5 +79,18 @@ const Login = () => {
 
 export default Login;
 
+
+
+<div>
+			<div className="register_container">
+				<section className="arrow d-md-none">
+					<Header />
+				</section>
+				<section className="main_register row">
+					<Image />
+					<Form />
+				</section>
+			</div>
+		</div>
 
 */

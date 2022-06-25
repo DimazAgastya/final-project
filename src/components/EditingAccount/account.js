@@ -17,17 +17,17 @@ const profile = () => {
 				</div>
 				<div className="row">
 					<img src="/SVG/pen.svg" className="col-auto account_icon" alt="pen icon" />
-					<p className="col-10 side_text">Ubah Akun</p>
+					<p className="col-10 side_text mt-2">Ubah Akun</p>
 				</div>
 				<hr></hr>
 				<div className="row">
 					<img src="/SVG/fi_settings.svg" className="col-auto account_icon" alt="setting icon" />
-					<p className="col-10 side_text">Pengaturan Akun</p>
+					<p className="col-10 side_text mt-2 ">Pengaturan Akun</p>
 				</div>
 				<hr></hr>
 				<div className="row">
 					<img src="/SVG/log_out.svg" className="col-auto account_icon" alt="log out icon" />
-					<p className="col-10 side_text">Keluar</p>
+					<p className="col-10 side_text mt-2">Keluar</p>
 				</div>
 				<hr></hr>
 				<footer className="text-center account_footer">Version 1.0.0</footer>

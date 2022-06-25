@@ -1,11 +1,13 @@
 import React from "react";
+import { FiEye } from "react-icons/fi";
 import "./login.css";
+import { Link } from "react-router-dom";
 
 const LoginForm = () => {
 	return (
 		<div className="register_right col-12 col-lg-4">
 			<h2>Masuk</h2>
-			<form className="register_form">
+			<form className="login_form">
 				<label className="login_label" htmlFor="nama">
 					Email
 				</label>
@@ -17,17 +19,18 @@ const LoginForm = () => {
 				</label>
 				<div>
 					<input type="Password" name="Password" id="Password" required placeholder="Masukkan password" className="input_box"></input>
+					<FiEye className="login_icon" />
 				</div>
 			</form>
-			<button type="submit" className="btn_login mt-5">
+			<button type="submit" className="login_submit mt-5">
 				Masuk
 			</button>
 			<div className="footer">
 				<p>
 					belum punya akun?
-					<a href="/register" className="daftar">
+					<Link to="/register" className="daftar">
 						Daftar sini
-					</a>
+					</Link>
 				</p>
 			</div>
 		</div>

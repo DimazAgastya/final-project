@@ -4,12 +4,7 @@ import "./login.css";
 const LoginHeader = () => {
 	return (
 		<div>
-			<img
-				src="/SVG/arrow_left.svg"
-				alt="arrow icon"
-				className=" arrow-svg
-					"
-			/>
+			<img src="/SVG/arrow_left.svg" alt="arrow icon" className=" arrow-svg" />
 		</div>
 	);
 };

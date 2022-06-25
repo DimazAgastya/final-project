@@ -24,10 +24,6 @@
 	margin-left: 5px;
 }
 
-.login_left {
-	margin-right: 150px;
-}
-
 label {
 	font-family: Poppins;
 	font-size: 12px;
@@ -47,21 +43,27 @@ label {
 	width: 98%;
 }
 
-.footer > p {
-	font-family: Poppins;
-	text-align: center;
-	margin: 75px 35px 0px 0px;
+.register_icon {
+	margin-left: -50px;
+	font-size: 22px;
+	color: var(--header);
 }
 
-.btn_login {
+.btn_register {
 	background-color: var(--primary);
 	color: var(--secondary);
 	font-family: Poppins;
 	border: none;
+	padding: 12px 24px 12px 24px;
 	border-radius: 16px;
-	padding: 12px 24px;
+	font-size: 14px;
 	width: 100%;
-	margin-top: 50px;
+}
+
+.footer > p {
+	font-family: Poppins;
+	text-align: center;
+	margin: 75px 35px 0px 0px;
 }
 
 .daftar {
@@ -104,15 +106,15 @@ label {
 		width: 85%;
 	}
 
-	.btn_login {
+	.btn_register {
 		background-color: var(--primary);
 		color: var(--secondary);
 		font-family: Poppins;
 		border: none;
 		padding: 12px 24px 12px 24px;
 		border-radius: 16px;
+		font-size: 14px;
 		width: 87%;
-		margin-top: 30px;
 	}
 
 	.footer {

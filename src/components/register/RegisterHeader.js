@@ -1,10 +1,13 @@
 import React from "react";
 import "./register.css";
+import { Link } from "react-router-dom";
 
 const RegisterHeader = () => {
 	return (
 		<div>
-			<img src="/SVG/arrow_left.svg" alt="arrow icon" className=" arrow-svg" />
+			<Link to="#">
+				<img src="/SVG/arrow_left.svg" alt="arrow icon" className=" arrow-svg" />
+			</Link>
 		</div>
 	);
 };
